@@ -1,3 +1,4 @@
+/* General CSS */
 .size {
     font-size: 20px;
 }
@@ -13,4 +14,23 @@
 }
 .flt-left {
     float: left;
+}
+body, html {
+    overflow: auto;
+    height: 100%;
+}
+
+/* Top Row for Links*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column1 {
+    float: left;
+    padding: 5px;
+}
+.column2 {
+    float: right;
+    padding: 5px;
 }

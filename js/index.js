@@ -4,6 +4,3 @@ function back() {
 function forward() {
     history.forward();
 }
-
-
-

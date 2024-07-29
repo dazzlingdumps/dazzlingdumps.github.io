@@ -34,3 +34,12 @@ body, html {
     float: right;
     padding: 5px;
 }
+
+/* Up Button Styling */
+
+.btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    float: right;
+}

@@ -2,7 +2,7 @@
 window.onload = function scrollUp() {
     var scroll = document.getElementById("up")
     scroll.addEventListener("click", e => {
-        location.href="index";
+        location.href=".";
         console.log("scrolled");
     });
 }

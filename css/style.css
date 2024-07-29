@@ -43,3 +43,17 @@ body, html {
     float: right;
     cursor: pointer;
 }
+
+div.btn2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+button.btn2 {
+    background: #5083c7;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}

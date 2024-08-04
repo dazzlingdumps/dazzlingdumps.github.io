@@ -38,12 +38,17 @@ body, html {
 /* Up Button Styling */
 .btn {
     background: none;
-    border: none;
+    border: 1px solid;
+    border-radius: 6px;
     font-size: 20px;
-    float: right;
     cursor: pointer;
+
+    position: fixed;
+    right: 35px;
+    bottom: 20px;
 }
 
+/* Checkout Button Styling */
 div.btn2 {
     text-align: center;
     padding-bottom: 10px;
@@ -57,3 +62,5 @@ button.btn2 {
     padding: 10px;
     border-radius: 5px;
 }
+
+/* Nav Bar */

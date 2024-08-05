@@ -10,6 +10,12 @@
     </head>
     <title>Dazzling Dumps Website</title>
     <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a onclick="document.location = 'html/candles'">
+                <h1 class="size arial">Candles</h1>
+            </a>
+        </div>
         <div class="row" style="border-bottom: 1px solid black;">
             <div class="column1">
                 <a onclick="document.location = '.'">
@@ -17,9 +23,7 @@
                 </a>
             </div>
             <div class="column2">
-                <a onclick="document.location = 'html/candles'">
-                    <h1 class="size arial">Candles</h1>
-                </a>
+                <span onclick="openNav()" style="font-size: 23px; position: relative; top: 7px; right: 10px;">&#9776;</span>
             </div>
         </div>
         <p class="arial size">Welcome! This is a website dedicated to Dazzling Dumps' candle, wallflower, and many other items that are deemed worthy of inventory. <br><br>Of course, since this is a small business, we ask you click on the button below in order to 'checkout' the items of your liking.</p>

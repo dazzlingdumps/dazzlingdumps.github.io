@@ -13,3 +13,13 @@ function goToWebsite() {
         '_blank'
     );
 }
+
+
+function closeNav() {
+    var close = document.getElementById("mySidenav");
+    close.style.width = "0px";
+}
+function openNav() {
+    var open = document.getElementById("mySidenav");
+    open.style.width = "250px";
+}
